@@ -13,6 +13,8 @@
 		4B27F2541B05EE3500E613D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B27F2531B05EE3500E613D0 /* Images.xcassets */; };
 		4B27F2571B05EE3500E613D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B27F2551B05EE3500E613D0 /* LaunchScreen.xib */; };
 		4B27F2631B05EE3500E613D0 /* WireFrameKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27F2621B05EE3500E613D0 /* WireFrameKitTests.swift */; };
+		4B27F26D1B05FAAE00E613D0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27F26C1B05FAAE00E613D0 /* SignUpViewController.swift */; };
+		4BCCBA621B17180200F6AFBE /* ForgortPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCBA611B17180200F6AFBE /* ForgortPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4B27F25C1B05EE3500E613D0 /* WireFrameKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WireFrameKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B27F2611B05EE3500E613D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B27F2621B05EE3500E613D0 /* WireFrameKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireFrameKitTests.swift; sourceTree = "<group>"; };
+		4B27F26C1B05FAAE00E613D0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4BCCBA611B17180200F6AFBE /* ForgortPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgortPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				4B27F2531B05EE3500E613D0 /* Images.xcassets */,
 				4B27F2551B05EE3500E613D0 /* LaunchScreen.xib */,
 				4B27F24A1B05EE3500E613D0 /* Supporting Files */,
+				4B27F26C1B05FAAE00E613D0 /* SignUpViewController.swift */,
+				4BCCBA611B17180200F6AFBE /* ForgortPasswordViewController.swift */,
 			);
 			path = WireFrameKit;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B27F26D1B05FAAE00E613D0 /* SignUpViewController.swift in Sources */,
 				4B27F24F1B05EE3500E613D0 /* ViewController.swift in Sources */,
 				4B27F24D1B05EE3500E613D0 /* AppDelegate.swift in Sources */,
+				4BCCBA621B17180200F6AFBE /* ForgortPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WireFrameKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WireFrameKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +421,7 @@
 				4B27F2681B05EE3500E613D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B27F2691B05EE3500E613D0 /* Build configuration list for PBXNativeTarget "WireFrameKitTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +430,7 @@
 				4B27F26B1B05EE3500E613D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
